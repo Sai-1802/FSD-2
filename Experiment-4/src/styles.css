@@ -1,0 +1,73 @@
+body {
+  background-color: #000000 !important;
+  color: #ffffff;
+}
+
+.container, .container-fluid {
+  background-color: transparent;
+}
+
+.card {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  border: none;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.bg-gradient-purple {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+.bg-gradient-orange {
+  background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+}
+
+.bg-gradient-blue {
+  background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+}
+
+.bg-gradient-green {
+  background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%);
+}
+
+.bg-gradient-pink {
+  background: linear-gradient(135deg, #fa709a 0%, #fee140 100%);
+}
+
+.bg-gradient-teal {
+  background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);
+}
+
+.navbar-dark .navbar-brand {
+  color: #ffffff !important;
+  font-weight: bold;
+}
+
+/* theme helpers */
+.theme-light {
+  background-color: #ffffff !important;
+  color: #000000 !important;
+}
+
+.theme-dark {
+  background-color: #121212 !important;
+  color: #ffffff !important;
+}
+
+.nav-link.btn.btn-link {
+  color: #ffffff !important;
+  text-decoration: none;
+}
+
+.nav-link.btn.btn-link:hover {
+  color: #ffd700 !important;
+}
+
+.nav-link.btn.btn-link.active {
+  color: #ffd700 !important;
+  font-weight: bold;
+}
