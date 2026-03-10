@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "LAB-mst/package.json",
+      "use": "@vercel/static-build",
+      "config": {
+        "distDir": "LAB-mst/dist",
+        "buildCommand": "npm run build"
+      }
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/LAB-mst/dist/$1"
+    }
+  ]
+}
